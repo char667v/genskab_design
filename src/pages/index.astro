@@ -4,18 +4,35 @@ import Button from '../components/Button.astro';
 import Link from '../components/Link.astro';
 ---
 <MainLayout title="Titel">
-	<section class="">
+	<section class="bg-blue-500 py-16 ps-16 rounded-lg grid grid-cols-2">
 		<div>
-		 	<h2>We prove the best seo and digital marketing on demand</h2>
-		  	<p>
+		 	<h2 class="text-2x1 text-slate-100 font-bold pb-8 pe-10 uppercase">We prove the best seo and digital marketing on demand</h2>
+		  	<p class="pb-8 text-slate-100 pe-12">
 			All our content marketing service packages include a custom content
 			strategy All our content marketing service packages include a custom
 			content strategy.
 		  	</p>
 			<Button href="#">Get started</Button>
 		</div>
-		<div>
+		<div class="grid items-center">
 			<img src="hike.svg" alt="Hiker illustration" />
 		</div>
 	  </section>
+</MainLayout>
+<hr>
+<MainLayout title="Titel">
+<section class="">
+	<div>
+		 <h2>We prove the best seo and digital marketing on demand</h2></div>
+		  <p>
+		All our content marketing service packages include a custom content
+		strategy All our content marketing service packages include a custom
+		content strategy.
+		  </p>
+		<Button href="#">Get started"</Button>
+	</div>
+	<div>
+		<img src="hike.svg" alt="Hiker illustration" />
+	</div>
+  </section>
 </MainLayout>
